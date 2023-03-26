@@ -3,9 +3,9 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 require('dotenv').config();
-
+// use dotenv for get API 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; //in Mongoose i'm use port 5000 || also we can change port
 
 app.use(cors());
 app.use(express.json());
@@ -27,15 +27,15 @@ app.use('/api/user', userRouter);
 app.use('/api/admin', adminRouter);
 app.use('/api/properties', propertiesRouter);
 
-/*app.use(express.static('../land-registry/build'))
+app.use(express.static('../land-registry/build'))
 
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, '../land-registry/build/index.html'), function (err) {
-        if (err) {
-            res.status(500).send(err)
-        }
-    })
-})*/
+// app.get('/*', function (req, res) {
+//     res.sendFile(path.join(__dirname, '../land-registry/build/index.html'), function (err) {
+//         if (err) {
+//             res.status(500).send(err)
+//         }
+//     })
+// })
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

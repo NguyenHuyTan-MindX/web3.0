@@ -25,8 +25,8 @@ class SuperAdmin extends React.Component {
 
     changeDetect() {
         let { phone, name, aadhaar, email } = this.props.userinfo
-        let { phone: updatedPhone, name: updatedName, aadhaar: updatedAadhaar, email: updatedEmail } = this.state
-        if (phone === updatedPhone && name === updatedName && aadhaar === updatedAadhaar && email === updatedEmail) {
+        let { phone: updatedPhone, name: updatedName, aadhaar: updatedaadhaar, email: updatedEmail } = this.state
+        if (phone === updatedPhone && name === updatedName && aadhaar === updatedaadhaar && email === updatedEmail) {
             return false
         } else {
             return true
@@ -59,7 +59,7 @@ class SuperAdmin extends React.Component {
                     <h2>Add an Admin</h2>
                     <input className="app-input" type="text" name="address" placeholder="Token Address" autoComplete="new-password" value={this.state.address} onChange={this.handleInput} required />
                     <input className="app-input" type="text" name="name" placeholder="Name" value={this.state.name} onChange={this.handleInput} required />
-                    <input className="app-input" type="text" name="aadhaar" placeholder="Aadhaar" value={this.state.aadhaar} onChange={this.handleInput} required />
+                    <input className="app-input" type="text" name="aadhaar" placeholder="aadhaar" value={this.state.aadhaar} onChange={this.handleInput} required />
                     <input className="app-input" type="text" name="citytown" placeholder="City/Town" value={this.state.citytown} onChange={this.handleInput} required />
                     <input className="app-input" type="text" name="district" placeholder="District" value={this.state.district} onChange={this.handleInput} required />
                     <input className="app-input" type="text" name="state" placeholder="State" value={this.state.state} onChange={this.handleInput} required />

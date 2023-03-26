@@ -27,8 +27,8 @@ class Admin extends React.Component {
 
     changeDetect() {
         let { phone, name, aadhaar, email } = this.props.userinfo
-        let { phone: updatedPhone, name: updatedName, aadhaar: updatedAadhaar, email: updatedEmail } = this.state
-        if (phone === updatedPhone && name === updatedName && aadhaar === updatedAadhaar && email === updatedEmail) {
+        let { phone: updatedPhone, name: updatedName, aadhaar: updatedaadhaar, email: updatedEmail } = this.state
+        if (phone === updatedPhone && name === updatedName && aadhaar === updatedaadhaar && email === updatedEmail) {
             return false
         } else {
             return true

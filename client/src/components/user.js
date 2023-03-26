@@ -40,8 +40,8 @@ class User extends React.Component {
 
     changeDetect() {
         let { phone, name, aadhaar, email } = this.props.userinfo
-        let { phone: updatedPhone, name: updatedName, aadhaar: updatedAadhaar, email: updatedEmail } = this.state
-        if (phone === updatedPhone && name === updatedName && aadhaar === updatedAadhaar && email === updatedEmail) {
+        let { phone: updatedPhone, name: updatedName, aadhaar: updatedaadhaar, email: updatedEmail } = this.state
+        if (phone === updatedPhone && name === updatedName && aadhaar === updatedaadhaar && email === updatedEmail) {
             return false
         } else {
             return true
@@ -138,7 +138,7 @@ class User extends React.Component {
                 <div className="wrapper">
                     <h2>Personal Details</h2>
                     <input className="app-input" type="text" name="name" placeholder="Name" value={this.state.name} onChange={this.handleInput} />
-                    <input className="app-input" type="text" name="aadhaar" placeholder="Aadhaar" value={this.state.aadhaar} onChange={this.handleInput} />
+                    <input className="app-input" type="text" name="aadhaar" placeholder="aadhaar" value={this.state.aadhaar} onChange={this.handleInput} />
                     <input className="app-input" type="text" name="phone" placeholder="Phone" value={this.state.phone} onChange={this.handleInput} />
                     <input className="app-input" type="text" name="email" placeholder="Email" value={this.state.email} onChange={this.handleInput} />
                     <button onClick={() => this.changeDetect() ? this.update() : ""} className={this.changeDetect() ? "app-button-1" : "app-button-1 app-button-1-inactive"}>Update</button> {/*Disabled*/}

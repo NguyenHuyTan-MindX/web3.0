@@ -13,7 +13,7 @@ class Header extends React.Component {
                     <img src={emblem} alt="Emblem" height={45} />
                     <div className="text-wrap">
                         <h1>Land Registration Portal</h1>
-                        <p>Government of India</p>
+                        <p>Van Lang University</p>
                     </div>
                 </div>
                 <img src={digiindia} alt="Emblem" height={45} />

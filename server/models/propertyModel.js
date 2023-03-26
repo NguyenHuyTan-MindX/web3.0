@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
+
+
 const propertySchema = new Schema({
     address: { type: String, required: true },
     surveynumber: { type: String, required: true },
@@ -16,6 +18,8 @@ const propertySchema = new Schema({
 }, {
     timestamps: true,
 });
+
+
 
 const Property = mongoose.model('Property', propertySchema);
 

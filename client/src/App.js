@@ -71,7 +71,8 @@ class App extends Component {
 
   login = () => {
     console.log('Checking if SuperAdmin...')
-    if (this.state.accounts[0].toLowerCase() === "0x05Be6ed049113c0A92B6419D39201a5Dd4F7548e".toLowerCase()) {
+    if (this.state.accounts[0].toLowerCase() === "0x86f5b06Da8C345205546588f923551A996de1959".toLowerCase()) {
+      //"superAdmin address from Ganache" -> truffle migrate will be get that address, after that upload on Migration.sol
       console.log("Welcome Lord!");
       this.setState({ who: 'superadmin', code: 1 })
     } else {
