@@ -1,8 +1,7 @@
 <p align="center">Blockchain based platform for land registration!</p>
 <p align="center">
-   <img src="https://ibb.co/gjHtrcx">
+   <img src="https://i.ibb.co/yfGgNxr/web3-0.png">
 </p>
-https://ibb.co/gjHtrcx
 ## Features
 
 - Seperate Portal for SuperAdmin and Admin.
