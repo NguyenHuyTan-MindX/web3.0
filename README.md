@@ -1,3 +1,18 @@
+## Abstract
+The thesis explores the potential of integrating blockchain technology with the real estate 
+sector to develop Web 3.0. The aim of this integration is to create a decentralized and 
+transparent platform for real estate transactions that can improve efficiency, security, and trust 
+in the sector. Multiple transactions, various unofficial fees, needless bureaucracy, the 
+intervention of unqualified intermediaries, a lack of transparency, and other issues make it 
+difficult to acquire land in Vietnam. According to studies, digitization might help Vietnam's 
+land management system and solve these acquisition problems. Last but not least, however, 
+mongoDBly offered a distinct conceptual digital framework for land purchase. The majority 
+of recent land research evaluates blockchain technology as a viable remedy for these 
+difficulties in Vietnam's land purchase procedure. In research paper concludes by system the 
+potential of integrating blockchain technology with the real estate sector to develop Web 3.0. 
+It also highlights the challenges and limitations of implementing blockchain technology in the 
+real estate sector and suggests future research directions to overcome these challenges.
+Web 3.0.
 <p align="center">Blockchain based platform for land registration!</p>
 <p align="center">
    <img src="https://i.ibb.co/yfGgNxr/web3-0.png">
