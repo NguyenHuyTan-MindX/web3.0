@@ -1,4 +1,7 @@
 <p align="center">Blockchain based platform for land registration!</p>
+<p align="center">
+   <img src="https://ibb.co/gjHtrcx">
+</p>
 https://ibb.co/gjHtrcx
 ## Features
 
