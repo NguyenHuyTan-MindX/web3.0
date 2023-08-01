@@ -50,4 +50,4 @@ truffle
 11. Import the accounts using private key
 12. Change the address /client/src/App.js#L74 ">here</a> to the address of your preferred SuperAdmin
 13. Login from SuperAdmin and register Admins
-14. Voila! The land registry system is up and running!!
+14. Done! The land registry system is up and running!!
