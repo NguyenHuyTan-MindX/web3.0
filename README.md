@@ -13,7 +13,8 @@ potential of integrating blockchain technology with the real estate sector to de
 It also highlights the challenges and limitations of implementing blockchain technology in the 
 real estate sector and suggests future research directions to overcome these challenges.
 Web 3.0.
-<p align="center">Blockchain based platform for land registration!</p>
+<p align="center">DEVELOPING WEB 3.0 BY INTEGRATING BLOCKCHAIN TECHNOLOGY WITH THE REAL ESTATE SECTOR.
+</p>
 <p align="center">
    <img src="https://i.ibb.co/yfGgNxr/web3-0.png">
 </p>
